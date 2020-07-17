@@ -10,7 +10,6 @@ namespace Task2
             string fname = UserInfo.GetFirstName();
             string sname = UserInfo.GetSecondName();
             string age = UserInfo.GetAge();
-
             UserServices userServices = new UserServices(fname,sname,age);
             userServices.displayUserInfo();
         }
